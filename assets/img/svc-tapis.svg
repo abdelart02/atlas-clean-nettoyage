@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Illustration : nettoyage de tapis et canapés">
+  <rect width="600" height="420" fill="#fce7f3"/>
+  <rect y="300" width="600" height="120" fill="#e7d8c3"/>
+  <!-- rug -->
+  <path d="M60 330h420l60 70H0z" fill="#11707f"/>
+  <path d="M90 345h360l40 42H40z" fill="none" stroke="#5eead4" stroke-width="4" stroke-dasharray="10 8"/>
+  <path d="M200 365h140" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  <!-- sofa -->
+  <rect x="120" y="180" width="320" height="80" rx="26" fill="#f97360"/>
+  <rect x="100" y="210" width="360" height="70" rx="22" fill="#fb8b78"/>
+  <rect x="80" y="200" width="50" height="90" rx="20" fill="#f97360"/>
+  <rect x="430" y="200" width="50" height="90" rx="20" fill="#f97360"/>
+  <rect x="130" y="290" width="12" height="22" fill="#5b4636"/><rect x="418" y="290" width="12" height="22" fill="#5b4636"/>
+  <rect x="150" y="190" width="70" height="50" rx="14" fill="#fde68a"/>
+  <rect x="340" y="194" width="66" height="46" rx="14" fill="#5eead4"/>
+  <!-- shine streak on sofa -->
+  <path d="M250 222h90" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+  <!-- upright vacuum -->
+  <g transform="translate(500 120)">
+    <path d="M20 0v170" stroke="#374151" stroke-width="10" stroke-linecap="round"/>
+    <rect x="0" y="-10" width="40" height="18" rx="9" fill="#0b4f5c"/>
+    <rect x="-6" y="70" width="52" height="90" rx="18" fill="#14b8a6"/>
+    <rect x="6" y="84" width="28" height="40" rx="8" fill="#ccfbf1"/>
+    <rect x="-24" y="190" width="84" height="20" rx="8" fill="#0b4f5c"/>
+    <path d="M20 160v30" stroke="#374151" stroke-width="12"/>
+  </g>
+  <g fill="#facc15"><path d="M300 110l6 14 14 6-14 6-6 14-6-14-14-6 14-6z"/><path d="M90 120l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/></g>
+</svg>

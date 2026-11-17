@@ -1,0 +1,42 @@
+ATLAS CLEAN — Site vitrine d'entreprise de nettoyage
+=======================================================
+
+PAGES
+- index.html ............... Accueil (services, avant/après, formules, avis, FAQ)
+- services.html ............ Détail des 6 services
+- a-propos.html ............ À propos / valeurs
+- contact.html ............. Formulaire de devis + carte
+- mentions-legales.html .... Mentions légales & confidentialité (à compléter)
+- 404.html ................. Page introuvable
+
+MODIFIER LES INFORMATIONS DE L'ENTREPRISE
+- Un seul fichier : assets/js/config.js
+  (nom, téléphone, WhatsApp, e-mail, adresse, horaires, carte Google Maps, réseaux sociaux)
+- WhatsApp : mettre le numéro au format 2126XXXXXXXX (sans + ni espaces).
+  Le formulaire de devis ouvre alors WhatsApp avec la demande pré-remplie.
+  Tant que le champ est vide, le formulaire ouvre la messagerie e-mail.
+- Le nom « Atlas Clean » apparaît aussi dans les titres des pages (balises <title>) :
+  faire un Rechercher / Remplacer dans les fichiers .html si vous changez de nom.
+
+COULEURS ET POLICES
+- Variables en haut de assets/css/style.css (section :root).
+
+IMAGES
+- assets/img/ : photo d'accueil (hero-photo-2.webp), photos des 6 services (svc-*.webp)
+  et illustrations SVG (équipe, avant/après, logo).
+- Pour mettre de vraies photos : déposer le fichier (WebP ou JPG, ~1200 px de large)
+  dans assets/img/ et remplacer le nom dans le code (ex : svc-bureaux.svg -> svc-bureaux.webp).
+
+MISE EN LIGNE SUR HOSTINGER
+1. hPanel > Sites web > Gestionnaire de fichiers > dossier public_html.
+2. Supprimer le fichier default.php s'il existe.
+3. Envoyer TOUT le contenu de ce dossier (y compris le fichier caché .htaccess
+   et le dossier assets) directement dans public_html — pas le dossier lui-même.
+   Astuce : compresser en .zip, envoyer le zip, puis clic droit > Extraire.
+4. hPanel > Sécurité > SSL : activer le certificat gratuit (le .htaccess force le HTTPS).
+5. Les adresses /services, /contact, /a-propos fonctionnent aussi sans « .html ».
+
+AVANT LA MISE EN LIGNE
+- Remplacer les avis d'exemple par de vrais avis clients et retirer la note « Avis d'exemple ».
+- Vérifier les chiffres (années d'expérience, nombre de clients...) et les prix des formules.
+- Compléter les mentions légales (RC, ICE, IF, adresse).

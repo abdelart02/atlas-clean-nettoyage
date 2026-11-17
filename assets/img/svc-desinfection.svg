@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Illustration : désinfection des locaux">
+  <rect width="600" height="420" fill="#dcfce7"/>
+  <circle cx="300" cy="210" r="150" fill="#bbf7d0"/>
+  <!-- shield -->
+  <path d="M300 70l110 40v80q0 90-110 140-110-50-110-140v-80z" fill="#0b4f5c"/>
+  <path d="M300 96l84 30v64q0 70-84 110-84-40-84-110v-64z" fill="#14b8a6"/>
+  <path d="M254 200l32 32 62-66" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- germs fading -->
+  <g fill="#a3a3a3" opacity=".45">
+    <circle cx="110" cy="110" r="18"/><circle cx="500" cy="300" r="22"/><circle cx="480" cy="90" r="14"/>
+  </g>
+  <g stroke="#a3a3a3" stroke-width="5" opacity=".45" stroke-linecap="round">
+    <path d="M110 84v-10M110 136v10M84 110h-10M136 110h10"/>
+    <path d="M500 270v-10M500 330v10M470 300h-10M530 300h10"/>
+  </g>
+  <path d="M90 90l40 40M130 90l-40 40M480 280l40 40M520 280l-40 40" stroke="#ef4444" stroke-width="6" stroke-linecap="round"/>
+  <!-- spray bottle -->
+  <g transform="translate(80 230)">
+    <path d="M10 40h50l6 100H4z" fill="#f97360"/>
+    <rect x="20" y="16" width="30" height="26" rx="4" fill="#0b4f5c"/>
+    <path d="M50 20h24l6 10H50z" fill="#0b4f5c"/>
+    <rect x="16" y="70" width="38" height="36" rx="5" fill="#fff"/>
+    <path d="M28 88h14M35 81v14" stroke="#f97360" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g fill="#fff" stroke="#86efac" stroke-width="2"><circle cx="180" cy="250" r="7"/><circle cx="196" cy="234" r="5"/><circle cx="200" cy="262" r="4"/></g>
+  <g fill="#facc15"><path d="M450 170l6 14 14 6-14 6-6 14-6-14-14-6 14-6z"/></g>
+</svg>

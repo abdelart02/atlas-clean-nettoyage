@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Illustration : nettoyage de vitres">
+  <rect width="600" height="420" fill="#e0e7ff"/>
+  <rect x="90" y="40" width="420" height="320" rx="10" fill="#fff"/>
+  <rect x="106" y="56" width="188" height="288" fill="#bae6fd"/>
+  <rect x="306" y="56" width="188" height="288" fill="#bae6fd"/>
+  <!-- city in window -->
+  <path d="M106 344V250h40v-40h30v134M190 344V230h50v114M250 344V270h44v74M306 344V240h50v104M366 344V200h40v144M416 344V260h78v84" fill="#7dd3fc"/>
+  <!-- dirty part on right -->
+  <rect x="306" y="56" width="188" height="288" fill="#a8a29e" opacity=".35"/>
+  <path d="M330 90q30 20 10 50M440 120q20 40-10 60M360 260q40 0 50 30" stroke="#78716c" stroke-width="10" opacity=".25" fill="none" stroke-linecap="round"/>
+  <!-- clean wipe arc -->
+  <path d="M306 56h80q-20 140 0 288h-80z" fill="#bae6fd"/>
+  <path d="M306 344V240h50v104" fill="#7dd3fc"/>
+  <path d="M130 80l50 70M150 70l20 28M330 80l40 56" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+  <!-- squeegee -->
+  <g transform="translate(372 150) rotate(-12)">
+    <rect x="-10" y="0" width="110" height="16" rx="6" fill="#0b4f5c"/>
+    <rect x="-10" y="-6" width="110" height="8" rx="3" fill="#1f2937"/>
+    <rect x="38" y="16" width="14" height="110" rx="7" fill="#14b8a6"/>
+  </g>
+  <rect x="80" y="356" width="440" height="20" rx="6" fill="#cbd5e1"/>
+  <g fill="#fff" stroke="#93c5fd" stroke-width="2"><circle cx="470" cy="300" r="8"/><circle cx="452" cy="318" r="5"/><circle cx="480" cy="326" r="6"/></g>
+  <g fill="#facc15"><path d="M200 120l6 14 14 6-14 6-6 14-6-14-14-6 14-6z"/><path d="M60 300l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/><path d="M550 120l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/></g>
+</svg>

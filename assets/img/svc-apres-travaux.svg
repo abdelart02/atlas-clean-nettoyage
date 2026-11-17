@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Illustration : nettoyage après travaux">
+  <rect width="600" height="420" fill="#ffedd5"/>
+  <!-- half painted wall -->
+  <rect x="0" y="0" width="330" height="330" fill="#ccfbf1"/>
+  <path d="M330 0v330" stroke="#5eead4" stroke-width="6" stroke-dasharray="14 10"/>
+  <rect y="330" width="600" height="90" fill="#d6c2a5"/>
+  <!-- ladder -->
+  <path d="M110 330l50-250M190 330l-30-250" stroke="#f59e0b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M124 270h56M133 220h48M142 170h38M150 120h28" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  <!-- paint roller -->
+  <g transform="translate(360 90) rotate(15)">
+    <rect x="0" y="0" width="110" height="36" rx="12" fill="#14b8a6"/>
+    <path d="M110 18h20v40h-70v70" stroke="#374151" stroke-width="8" fill="none" stroke-linejoin="round"/>
+    <rect x="50" y="120" width="20" height="70" rx="8" fill="#0b4f5c"/>
+  </g>
+  <!-- paint bucket -->
+  <path d="M400 290h90l-10 60h-70z" fill="#94a3b8"/>
+  <ellipse cx="445" cy="290" rx="45" ry="10" fill="#5eead4"/>
+  <path d="M405 290q40 30 80 0" fill="#14b8a6"/>
+  <!-- dust being vacuumed -->
+  <g fill="#a8a29e" opacity=".6"><circle cx="230" cy="360" r="8"/><circle cx="250" cy="372" r="5"/><circle cx="270" cy="356" r="6"/><circle cx="215" cy="378" r="4"/></g>
+  <!-- vacuum -->
+  <g transform="translate(300 290)">
+    <rect x="0" y="30" width="90" height="60" rx="20" fill="#f97360"/>
+    <circle cx="20" cy="92" r="10" fill="#1f2937"/><circle cx="72" cy="92" r="10" fill="#1f2937"/>
+    <path d="M0 50q-40 0-50 40h-40" stroke="#374151" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <rect x="-110" y="84" width="40" height="12" rx="4" fill="#1f2937"/>
+    <rect x="30" y="18" width="30" height="14" rx="6" fill="#0b4f5c"/>
+  </g>
+  <!-- tape & tiles -->
+  <circle cx="540" cy="380" r="20" fill="#fde68a"/><circle cx="540" cy="380" r="8" fill="#d6c2a5"/>
+  <g fill="#facc15"><path d="M80 60l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/><path d="M520 70l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/></g>
+</svg>
